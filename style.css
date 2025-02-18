@@ -1,82 +1,117 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffe6e6;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #ffe6e6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 header {
-    background-color: #ff4d4d;
-    color: white;
-    padding: 20px;
+  background-color: #ff4d4d;
+  color: white;
+  padding: 20px;
 }
 
 header img {
-    width: 100px;
-    height: auto;
+  width: 100px;
+  height: auto;
 }
 
 h1 {
-    margin: 0;
-    font-size: 2.5em;
+  margin: 0;
+  font-size: 2.5em;
 }
 
 h2 {
-    color: #cc0000;
+  color: #cc0000;
 }
 
 .highlights-content {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 
 article {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    padding: 20px;
-    width: 300px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
 }
 
 footer {
-    background-color: #ff4d4d;
-    color: white;
-    padding: 10px;
-    margin-top: 20px;
+  background-color: #ff4d4d;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 /* Heart images */
 .heart {
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    position: relative;
-    display: inline-block;
-    margin: 10px;
-    transform: rotate(-45deg);
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  transform: rotate(-45deg);
 }
 
 .heart::before,
 .heart::after {
-    content: "";
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    border-radius: 50%;
-    position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
 }
 
 .heart::before {
-    top: -25px;
-    left: 0;
+  top: -25px;
+  left: 0;
 }
 
 .heart::after {
-    top: 0;
-    left: 25px;
+  top: 0;
+  left: 25px;
+}
+.wishes {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#btn_love_wishes {
+  background: linear-gradient(45deg, #ff4e50, #fc913a);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(255, 78, 80, 0.4);
+}
+#btn_love_wishes:hover {
+  background: linear-gradient(45deg, #fc913a, #ff4e50);
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(255, 78, 80, 0.6);
+}
+
+#btn_love_wishes:active {
+  transform: scale(0.95);
+}
+
+#love-wishes {
+  height: 150px;
+  font-size: 28px;
+  line-height: 40px;
+  color: #ff4e50;
+  text-align: justify;
+  text-align: center;
 }
