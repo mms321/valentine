@@ -115,3 +115,13 @@ footer {
   text-align: justify;
   text-align: center;
 }
+/*БЛОК З КУПІВЛЕЮ ТА ВІДОБРАЖЕННЯМ 💖*/
+.site-footer p {
+  color: #000000;
+  font-family: Arial, sans-serif;
+  border: 3px solid #000000;
+  padding: 10px 20px;
+  border-radius: 10px 0px;
+  background-color: #ffe6e6;
+  cursor: pointer;
+}
